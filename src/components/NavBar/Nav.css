@@ -1,5 +1,5 @@
 nav{
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 20vh;
     padding: 2rem;
@@ -8,30 +8,37 @@ nav{
     color: #fff;
   }
  
-  nav h1{
+  nav button{
+    color: #fff;
     font-size: 3rem;
     font-weight: 950;
     font-family:cursive;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
   }
   nav .button-nav{
     display:flex;
     list-style: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  nav .button-nav li{
+ 
+  nav .button-nav li a{
     display: flex;
     flex-direction: column;
     padding: 0.6rem;
+    text-decoration: none;
+    color:#fff;
   }
   
   .icon{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   .button-nav li:nth-child(1),.button-nav li:nth-child(2),.button-nav li:nth-child(3){
     border-right:solid rgb(248, 237, 237) 0.1rem;
     height: 85%;
   }
- 
+
   nav header ul{
     display: flex;
     list-style: none;

@@ -1,8 +1,8 @@
-.rain ,.puff,.cart,.nap{
+#rain ,#puff,#cart,#nap{
     display: flex;
     height: 80vh;
 }
-.rain img ,.puff img ,.cart img ,.nap img{
+#rain img ,#puff img ,#cart img ,#nap img{
     width: 50%;
 }
 .description{
@@ -12,7 +12,7 @@
     align-items: center;
     width: 50%;
 }
-.description img{
+#rain .description img,#puff .description img,#cart .description img,#nap .description img{
     width: 7rem;
 }
 
@@ -29,7 +29,8 @@
     width: 30%;
     text-align: center;
 }
-.instagram{
+
+#instagram{
     margin: 4rem;
     display: flex;
     flex-direction: column;
@@ -40,7 +41,7 @@
 .title-instagram{
     margin:4rem;
 }
-.title-instagram h4,.news-letter span{
+.title-instagram h4{
 color:rgb(158, 149, 136);
 font-size: 0.9rem;
 }
@@ -51,38 +52,12 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 }
 .galeria{
     display: grid;
-    grid-template-columns: repeat(3, 10rem);
-    grid-template-rows: repeat(2, 10rem);
+    grid-template-columns: repeat(3, 12rem);
+    grid-template-rows: repeat(2, 12rem);
 }
 .galeria img{
 width: 100%;
 height: 100%;
 border:solid #fff 0.1px;
 }
-.news-letter{
-    text-align: center;
-}
-.news-letter h3{
-    font-size: 2.5rem;
-    font-weight: 100;
-}
 
-.form{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: 4rem;
-}
-
-.form input{
-width: 35rem ;
-margin: 1rem;
-height: 2.5rem;
-}
-.form button{
-    /* float: right; */
-    background-color: transparent;
-    border: transparent;
-    cursor: pointer;
-}

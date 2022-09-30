@@ -1,6 +1,8 @@
 footer{
     display: flex;
     flex-direction: column;
+    height: 30vh;
+    box-shadow:  -1px -8px 7px -5px  rgb(238, 233, 238);
 }
 .items-footer{
  display:flex;
@@ -11,6 +13,9 @@ footer{
 font-size: 2rem;
 font-weight:900;
 font-family: cursive;
+background-color: transparent;
+border: transparent;
+cursor: pointer;
 }
 footer .brands{
     display: inline-flex;
@@ -22,8 +27,33 @@ footer .brands li,span{
 footer ul{
     list-style: none;
 }
+footer ul:nth-child(2) li a{
+    text-decoration: none;
+    color:black;
+}
+footer ul:nth-child(2),footer ul:nth-child(3),footer ul:nth-child(4){
+    font-size: 0.7rem;
+    font-family:cursive;
+    font-weight: 600;
+}
+footer ul:nth-child(2) li,footer ul:nth-child(3) li,footer ul:nth-child(4) li{
+    padding: 0.3rem;
+}
+
+footer ul:nth-child(4) li:last-child{
+display:flex;
+justify-content: center;
+align-items: center;
+width: 8rem;
+text-align:start;
+}
+footer ul:nth-child(4) li:last-child svg{
+width: 5rem;
+}
+
 .copyright{
     padding: 1rem;
     font-size: 0.8rem;
     color: rgb(216, 216, 215);
+    border-top: solid rgb(238, 233, 238) 1px;
 }

@@ -1,4 +1,4 @@
-.portada{
+#portada{
     height: 120vh;
 }
 .title-portada{
@@ -31,7 +31,7 @@
     border:solid rgb(202, 204, 224) 0.1rem;
     background-color: rgb(104, 169, 212);
 }
-.portada img{
+#portada img{
     width: 100%;
     height: 100%;
 }

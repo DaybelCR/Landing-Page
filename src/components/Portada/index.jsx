@@ -6,22 +6,11 @@ import "./Portada.css";
 
 
 export default function Portada() {
- const [index,setIndex]=useState(0);
+const [index,setIndex]=useState(0);
 const images=[img1,img2,img3];
-// React.useEffect(()=>{
-//   const interval = setInterval(() => {
-//     if(index<=0){
-//       return setIndex(index+1)
-//     }else if(index===images.length){
-//       return setIndex(index-1)
-//     }
-//   }, 5000);                          
-//   return () => clearInterval(interval);
-// },[images.length,index])
-
 
    return (
-    <main className='portada'>
+    <main  id='portada'>
       <div className='title-portada'>
       <h3>Estar cómodo, nunca fue tán fácil</h3>
       </div>
