@@ -1,0 +1,88 @@
+.rain ,.puff,.cart,.nap{
+    display: flex;
+    height: 80vh;
+}
+.rain img ,.puff img ,.cart img ,.nap img{
+    width: 50%;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.description img{
+    width: 7rem;
+}
+
+.description img ,.description p ,.description button{
+    margin : 1.5rem;
+}
+
+.description button{
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+.description p{
+    width: 30%;
+    text-align: center;
+}
+.instagram{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-instagram{
+    margin:4rem;
+}
+.title-instagram h4,.news-letter span{
+color:rgb(158, 149, 136);
+font-size: 0.9rem;
+}
+.title-instagram span{
+font-size: 3rem;
+color: rgb(54, 53, 53);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    grid-template-rows: repeat(2, 10rem);
+}
+.galeria img{
+width: 100%;
+height: 100%;
+border:solid #fff 0.1px;
+}
+.news-letter{
+    text-align: center;
+}
+.news-letter h3{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 4rem;
+}
+
+.form input{
+width: 35rem ;
+margin: 1rem;
+height: 2.5rem;
+}
+.form button{
+    /* float: right; */
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}

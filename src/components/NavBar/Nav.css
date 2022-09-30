@@ -1,0 +1,48 @@
+nav{
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    padding: 2rem;
+    display:flex;
+    justify-content:space-between;
+    color: #fff;
+  }
+ 
+  nav h1{
+    font-size: 3rem;
+    font-weight: 950;
+    font-family:cursive;
+  }
+  nav .button-nav{
+    display:flex;
+    list-style: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  nav .button-nav li{
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+  }
+  
+  .icon{
+    margin-bottom: 1rem;
+  }
+  .button-nav li:nth-child(1),.button-nav li:nth-child(2),.button-nav li:nth-child(3){
+    border-right:solid rgb(248, 237, 237) 0.1rem;
+    height: 85%;
+  }
+ 
+  nav header ul{
+    display: flex;
+    list-style: none;
+  }
+nav header ul li{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+nav header ul li:nth-child(1){
+    display: flex;
+    border-right:solid rgb(248, 237, 237) 0.1rem;
+    height: 2rem;
+}
